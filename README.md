@@ -16,5 +16,6 @@ The program will execute on the command line.
 
 Step 3 - If the text editor your using does not have a command terminal simply open your command prompt, change directory to where the python scripts are located and repeat step 2.  
 
-## Problems
+## Python Problem Sheet
+You can find the problem sheet [here](https://emerging-technologies.github.io/problems/python-fundamentals.html).
 
