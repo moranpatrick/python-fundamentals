@@ -1,7 +1,7 @@
 # Python Fundamentals Problem Sheet
 
 ## Instructions - Install Python
-Step 1 - Download Anaconda 3 from their website [here.](https://www.anaconda.com/download/).  
+Step 1 - Download Anaconda 3 from their website [here](https://www.anaconda.com/download/).  
 Step 2: Choose a Text editor of your choice. I recommend [Visual Studio Code](https://code.visualstudio.com/download).
 
 ## Instructions - Running the python Files
