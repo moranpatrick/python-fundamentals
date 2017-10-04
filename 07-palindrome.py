@@ -8,8 +8,7 @@ def palindromeCheck(str):
     str = str.lower() # Convert string to lowercase
     str = ''.join(char for char in str if char.isalpha()) # Using char.isalpha() lets you ignore everything that's not a letter
 
-    # Now check if the string is a palindrome
-    if str == str[::-1]:
+    # Now check if the string is a palindrome using slice
         return True
     else:
         return False

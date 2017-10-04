@@ -16,7 +16,7 @@ import math
 # x = number
 def func1(n, e):
     print("Loop 10 times using th given formula z_next = z - ((z*z - x) / (2 * z))")
-    for i in range(0,10): # Loop 10 times and print the result
+    for i in range(0,10): # Loop 10 times and print the result of the equation
         e = e - ((e*e - n) / (2 * e))
         print(e)
 
@@ -44,13 +44,13 @@ num = int(input())
 print("Enter your estimate: ")
 est = int(input())
 
-# Call function which loops just 10 times
+# Call function 1 which loops just 10 times
 func1(num, est)
-# Call the function that uses a loop to stop
-estimateAnswer = est = func2(num, est)
+# Call function 2 that uses a loop to stop
+estimateAnswer = func2(num, est)
 
-# Answer using math.sqr root
-ans = math.sqrt(num)
-# Difference between the two
-difference = estimateAnswer - ans
+# Answer using math.sqrt 
+mathAns = math.sqrt(num)
+# Difference between the math.sqrt and newton
+difference = estimateAnswer - mathAns
 print("The Difference between math.sqrt and newtons method is %f." % difference)
