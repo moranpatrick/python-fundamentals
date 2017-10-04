@@ -6,24 +6,27 @@
 # Sort List Function
 def sortLists(lst1, lst2):
     list = lst1 + lst2 # Merge The Two Lists
-    list.sort()
-    print(list)
+    list.sort() # Sort the Merged List
+    print(list) # Print The Sorted List
 
 # Variables
 list1 = []
 list2 = []
 
-print("Enter your values for the first list, each followed with a space: ")
-list1 = [int(x) for x in input().split()]
+print("Enter your values for the first list (No Spaces):")
+l1 = input()
+list1 = list(map(int, l1)) # Covert th input into a list using map()
     
-print("Enter your values for the second list, each followed with a space: ")
-list2 = [int(x) for x in input().split()]
+print("Now Enter your values for the second list(No Spaces):")
+l2 = input()
+list2 = list(map(int, l2))
 
 print(list1)
 print(list2)
 
+# Sort Both Lists
 sortLists(list1, list2)
 
 # References
-# https://stackoverflow.com/questions/4663306/get-a-list-of-numbers-as-input-from-the-user
+# https://stackoverflow.com/questions/29409273/how-to-split-string-without-spaces-into-list-of-integers-in-python
 # https://stackoverflow.com/questions/1720421/how-to-concatenate-two-lists-in-python
